@@ -1,0 +1,25 @@
+h1 {
+ color: pink;
+ text-decoration: underline;
+}
+
+p {
+  font-size: 18px;
+  width: 400px;
+  text-indent: 50px;
+  text-align: justify;
+}
+
+h4 {
+    color: darkred;
+}
+
+span {
+    color: yellow;
+}
+
+.yellow-box {
+    background-color: yellow;
+}
+
+
