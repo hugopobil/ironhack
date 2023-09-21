@@ -1,0 +1,93 @@
+/* CSS RESET - do not remove */
+/* Reset default browser styles and provide a consistent starting point */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+
+/*  Set the font */
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* STYLES */
+/* Write your CSS below */
+
+.web-intro {
+  background-image: url(../images/apple-pie.jpg);
+  height: 500px;
+  background-size: cover;
+  color: white;
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.article {
+  font-size: 30px;
+  padding: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe-img {
+  text-align: center;
+  width: 600px;
+  margin-top: 30px;
+}
+
+.horizontal-line {
+  border-color: darkgray;
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+}
+
+.cooking-steps {
+  font-size: 30px;
+  padding: 0 120px;
+  line-height: 50px;
+}
+
+.ingredients-title {
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+#cooking-steps strong {
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.directions-steps {
+  font-size: 30px;
+  padding: 0 120px;
+  margin-top: 40px;
+  line-height: 50px;
+  margin-bottom: 60px;
+}
+
+#directions-steps strong {
+  font-weight: 500;
+  margin-bottom: 50px;
+}

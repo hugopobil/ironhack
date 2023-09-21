@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    nav {
+      padding: 20px;
+      background-color: #000000;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .nav-link {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      margin-right: 20px;
+      font-weight: 100;
+    }
+
+    .nav-link-active {
+      font-weight: 900;
+    }
+
+    #nav-logo {
+      display: inline;
+      margin-right: 100px;
+      color: white;
+      font-family: monospace;
+      font-size: 30px;
+    }
+
+    #header-section {
+      height: 500px;
+      background: url("https://www.whitecase.com/sites/default/files/images/cover/2020/09/Madrid_Homepage_2400x1390_blackoverlay.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .header-title {
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      margin: 0;
+      /* margin-top, -left, -right, -bottom */
+      /* padding-top, -left, -right, -bottom */
+      padding-top: 200px;
+      font-size: 70px;
+    }
+
+    .section {
+      margin-top: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .section-title {
+      /* border-width: 1px;
+      border-style: solid;
+      border-color: black; */
+      display: inline-block;
+      padding: 20px;
+      border: 3px solid black;
+      border-radius: 10px;
+    }
+
+    .section-img {
+      width: 100%;
+    }
+
+    .section-content {
+      color: rgb(88, 88, 88);
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-weight: normal;
+      line-height: 32px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div id="nav-logo">
+      LOGO
+    </div>
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="about.html" class="nav-link">About</a>
+    <a href="content.html" class="nav-link nav-link-active">Content</a>
+  </nav>
+
+  <div id="header-section">
+    <h1 class="header-title">Hola mundo!</h1>
+  </div>
+
+  <div id="section-1" class="section">
+    <h2 class="section-title">Bienvenido a Madrid</h2>
+    <p class="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque accusantium dolore quasi
+      necessitatibus eveniet
+      autem, libero, nam error ipsum magni in cum iure eum architecto, recusandae aut dolor voluptatem facilis?</p>
+    <img class="section-img" src="./assets/img/madrid-skyline.jpeg" alt="madrid-skyline" />
+  </div>
+
+  <div id="section-2" class="section">
+    <h2 class="section-title">No te pierdas estos eventos</h2>
+    <p class="section-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque accusantium dolore quasi
+      necessitatibus eveniet
+      autem, libero, nam error ipsum magni in cum iure eum architecto, recusandae aut dolor voluptatem facilis?
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis dolorem nisi necessitatibus nostrum
+      assumenda, temporibus deleniti recusandae quaerat facilis inventore unde, officiis vitae distinctio est nulla
+      facere iste suscipit dignissimos!</p>
+    <img class="section-img" src="" alt="" />
+  </div>
+
+</body>
+
+</html>
