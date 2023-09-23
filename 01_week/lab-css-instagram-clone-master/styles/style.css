@@ -114,7 +114,6 @@ nav a {
   border-color: #386388;
   border-radius: 3px;
   background-color: #4b7296;
-  color: #e0e7ee;
   font-weight: bold;
 }
 
@@ -122,6 +121,7 @@ nav a {
   margin-left: 10px;
   text-decoration: none;
   font-size: 20px;
+  color: #e0e7ee;
 }
 
 .stores {
