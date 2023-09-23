@@ -1,0 +1,143 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {
+  font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  width: 900px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #537b9e;
+  font-weight: bold;
+}
+
+#background {
+  position:relative;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.blue-background {
+  background-image: url(../images/bgtile.png);
+  background-repeat: repeat;
+  position: absolute;
+  top: 0;
+  height: 500px;
+  width: 100%;
+}
+
+.main-content {
+  height: 80%;
+  width: 70%;
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.phone-images {
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.info-content {
+  height: 80%;
+  width: 700px;
+}
+
+.logo-button {
+  height: 140px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#frame {
+  background-image: url(../images/frame.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 30px;
+  position: relative;
+  height: 100%;
+}
+
+#frame > p {
+  font-size: 25px;
+  padding: 12px;
+  text-align: justify;
+}
+
+#frame > h1 {
+  font-size: 40px;
+  padding: 12px;
+  margin: 0;
+  color: #537b9e;
+  font-weight: bold;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 140px;
+  border-style: solid;
+  border-color: #386388;
+  border-radius: 3px;
+  background-color: #4b7296;
+  color: #e0e7ee;
+  font-weight: bold;
+}
+
+.login > a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.stores {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+}
+
+
+
