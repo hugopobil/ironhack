@@ -13,3 +13,16 @@ function convertDollarsToEuros (Dollar){
 }
 
 // Exercise 3
+
+let myName = "hugo pobil"
+
+function rephrase (name){
+    name[0] = name[0].toUpperCase()
+    index_surname = name.indexOf(' ')
+    index_surname += 1
+    name[index_surname] = name[index_surname].toUpperCase()
+
+    return name
+}
+
+console.log(rephrase(myName))
